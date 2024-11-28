@@ -49,6 +49,12 @@ or
 $ go run server/kwkhtmltopdf_server.go
 ```
 
+or
+
+```
+$ docker-compose up -d
+```
+
 The server should now listen on http://localhost:8080.
 
 #### Note for Apple Silicon users

@@ -1,0 +1,6 @@
+services:
+  kwkhtmltopdf_server:
+    image: ghcr.io/acsone/kwkhtmltopdf:0.12.6.1-latest
+    ports:
+      - "8080:8080"
+    platform: linux/amd64
